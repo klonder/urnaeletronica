@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="450.0" prefWidth="800.0" styleClass="anchorpane-estilo" stylesheets="@estilos.css" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="urnaeletronica.Tela2">
+   <children>
+      <Pane layoutX="12.0" layoutY="71.0" prefHeight="354.0" prefWidth="459.0">
+         <children>
+            <ImageView fx:id="ivPresidente" fitHeight="150.0" fitWidth="120.0" layoutX="335.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true" />
+            <Label layoutX="5.0" layoutY="6.0" text="SEU VOTO PARA" />
+            <Label layoutX="90.0" layoutY="30.0" text="PRESIDENTE">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="10.0" layoutY="109.0" text="Número:" />
+            <TextField fx:id="tfPrimeiro" editable="false" layoutX="64.0" layoutY="86.0" prefHeight="45.0" prefWidth="40.0">
+               <font>
+                  <Font size="20.0" />
+               </font></TextField>
+            <TextField fx:id="tfSegundo" editable="false" layoutX="107.0" layoutY="86.0" prefHeight="45.0" prefWidth="40.0">
+               <font>
+                  <Font size="20.0" />
+               </font></TextField>
+            <Pane fx:id="pnSegundo" layoutY="148.0" prefHeight="205.0" prefWidth="459.0" styleClass="pane-estilo">
+               <children>
+                  <Line endX="456.0" fill="#9e9e9e" layoutX="2.0" layoutY="135.0" stroke="#727272" />
+                  <Label layoutX="7.0" layoutY="16.0" text="Nome:" />
+                  <Label fx:id="lbPresidente" layoutX="51.0" layoutY="4.0" prefHeight="35.0" prefWidth="237.0">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="7.0" layoutY="56.0" text="Partido:" />
+                  <Label fx:id="lbPartido" layoutX="56.0" layoutY="44.0" prefHeight="35.0" prefWidth="237.0">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="7.0" layoutY="96.0" text="Vice-presidente:" />
+                  <Label fx:id="lbVice" layoutX="101.0" layoutY="84.0" prefHeight="35.0" prefWidth="237.0">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="6.0" layoutY="140.0" text="Aperte a tecla:" />
+                  <Label layoutX="9.0" layoutY="160.0" prefHeight="15.0" text="VERDE" />
+                  <Label layoutX="9.0" layoutY="180.0" prefHeight="17.0" text="LARANJA" />
+                  <Label layoutX="66.0" layoutY="160.0" prefHeight="17.0" prefWidth="159.0" text="para CONFIRMAR este voto" />
+                  <Label layoutX="66.0" layoutY="180.0" prefHeight="17.0" prefWidth="159.0" text="para REINICIAR este voto" />
+                  <ImageView fx:id="ivVice" fitHeight="117.0" fitWidth="86.0" layoutX="368.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true" />
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+      <Button fx:id="btn1" layoutX="497.0" layoutY="86.0" mnemonicParsing="false" opacity="0.0" prefHeight="51.0" prefWidth="76.0" text="Button">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="btn2" layoutX="599.0" layoutY="86.0" mnemonicParsing="false" opacity="0.0" prefHeight="51.0" prefWidth="76.0" text="Button">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="btn3" layoutX="701.0" layoutY="85.0" mnemonicParsing="false" opacity="0.0" prefHeight="51.0" prefWidth="76.0" text="Button">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="btn4" layoutX="497.0" layoutY="154.0" mnemonicParsing="false" opacity="0.0" prefHeight="51.0" prefWidth="76.0" text="Button">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="btn5" layoutX="599.0" layoutY="155.0" mnemonicParsing="false" opacity="0.0" prefHeight="51.0" prefWidth="76.0" text="Button">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="btn6" layoutX="701.0" layoutY="154.0" mnemonicParsing="false" opacity="0.0" prefHeight="51.0" prefWidth="76.0" text="Button">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="btn7" layoutX="499.0" layoutY="222.0" mnemonicParsing="false" opacity="0.0" prefHeight="51.0" prefWidth="76.0" text="Button">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="btn8" layoutX="601.0" layoutY="223.0" mnemonicParsing="false" opacity="0.0" prefHeight="51.0" prefWidth="76.0" text="Button">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="btn9" layoutX="703.0" layoutY="222.0" mnemonicParsing="false" opacity="0.0" prefHeight="51.0" prefWidth="76.0" text="Button">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="btn0" layoutX="600.0" layoutY="289.0" mnemonicParsing="false" opacity="0.0" prefHeight="51.0" prefWidth="76.0" text="Button">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="btnBranco" layoutX="497.0" layoutY="362.0" mnemonicParsing="false" opacity="0.0" prefHeight="51.0" prefWidth="76.0" text="Button">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="btnCorrige" layoutX="599.0" layoutY="358.0" mnemonicParsing="false" opacity="0.0" prefHeight="51.0" prefWidth="76.0" text="Button">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="btnConfirma" layoutX="701.0" layoutY="362.0" mnemonicParsing="false" opacity="0.0" prefHeight="51.0" prefWidth="76.0" text="Button">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+   </children>
+</AnchorPane>
