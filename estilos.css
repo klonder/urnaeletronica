@@ -1,0 +1,34 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 14/04/2015, 00:18:50
+    Author     : max
+*/
+
+.root {
+/* -fx-background-image: url("../img/fundo1.jpg");
+-fx-background-size: cover, auto;
+linear-gradient(to bottom, #FcF5BE, rgba(180,200,255,1));*/
+-fx-background-color: transparent;
+}
+
+.anchorpane-estilo {    
+    -fx-background-image: url("../imagens/back.png");
+    -fx-background-repeat: stretch;
+}
+
+.text-field {
+    -fx-background-color: transparent;
+    -fx-border-color: #555555;
+    -fx-text-fill: #000;
+    -fx-font-size: 22pt;
+    -fx-alignment: center;
+    -fx-padding: 0px;
+    }
+
+.pane-estilo {
+   -fx-background-color: transparent;
+}
